@@ -1,0 +1,59 @@
+body {
+    font: 20px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.reset-button {
+    margin-top: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #4db6ac;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.reset-button:hover{
+    background-color: #26a69a;
+}
+
+.container {
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.game-info {
+    margin-top: 10px;
+}
+
+.square {
+    font: bold 20px "Comic Sans MS", Futura, sans-serif;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    line-height: 80px;
+    background-color: #80deea;
+    border-radius: 7px;
+    cursor: pointer;
+    outline: none;
+}
+
+.square:hover {
+    background-color: #4dd0e1;
+}
+
+.square:focus {
+    background-color: #4db6ac;
+}
+
+.board {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 306px;
+}
